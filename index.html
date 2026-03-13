@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Adel - Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Abdelrahman Adel</h1>
+            <h3 class="text-animation">I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h3>
+            <p>Creative developer passionate about building exceptional digital experiences. I specialize in turning complex problems into elegant solutions.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/share/18TnD4kRdc/"><i class="fab fa-facebook-f"></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                <a href="https://www.instagram.com/adlabdo888?igsh=MXVuaG9lMmNmcm5uaQ=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abdelrahman-adel-182102344?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHEncelSqSQ60C1Z0XYs8tg%3D%3D"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Abdo803423"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="Abdelrahman_Adel_Professional_CV.pdf" class="btn">Download CV <i class="fas fa-download"></i></a>
+        </div>
+        <div class="home-img">
+            <div class="img-container">
+                <img src="photo.jpeg" alt="Profile">
+                <div class="img-backdrop"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="about.jpeg" alt="About">
+            </div>
+            <div class="about-content">
+                <h3>Frontend Developer & UI/UX Designer</h3>
+                <p>I'm a passionate developer with 1+ years of experience creating stunning digital solutions. I believe in the power of design to transform businesses and create meaningful connections with users.</p>
+                <div class="info-box">
+                    <div class="info-item">
+                        <span class="counter" data-target="3">1</span>+
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="counter" data-target="50">10</span>+
+                        <p>Projects Done</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="counter" data-target="30">6</span>+
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Creating responsive websites using modern frameworks and best practices for optimal user experience.</p>
+                <a href="#" class="service-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive interfaces with focus on user experience and visual appeal that converts visitors.</p>
+                <a href="#" class="service-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Creating stunning visuals, branding materials, and digital assets that communicate your message.</p>
+                <a href="#" class="service-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="video">Video Editing</button>
+            <button class="filter-btn" data-filter="app">Mobile Apps</button>
+        </div>
+        <div class="portfolio-container">
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-img">
+                    <img src="portfolio1.png" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <p>Modern restaurant website with menu, reservations, and online ordering</p>
+                        <div class="portfolio-links">
+                            <a href="https://abdo803423.github.io/Italiano-/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/Abdo803423/Italiano-.git"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-img">
+                    <img src="portfolio2.png" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Zoo Website</h3>
+                        <p>Interactive website showcasing animals, exhibits, and visitor information</p>
+                        <div class="portfolio-links">
+                            <a href="https://abdo803423.github.io/The-Mummy-Zoo/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/Abdo803423/The-Mummy-Zoo.git"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-img">
+                    <img src="portfolio3.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>V-Cola Website</h3>
+                        <p>Creative landing page for a soft drink brand with modern animations</p>
+                        <div class="portfolio-links">
+                            <a href="https://abdo803423.github.io/V-cola-loading-Page/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/Abdo803423/V-cola-loading-Page.git"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-img">
+                    <img src="portfolio4.png" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Nike Store Website</h3>
+                        <p>Modern e-commerce website for Nike products with stylish UI</p>
+                        <div class="portfolio-links">
+                            <a href="https://abdo803423.github.io/NikeStore/#Home"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/Abdo803423/NikeStore.git"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="portfolio-item" data-category="app">
+                <div class="portfolio-img">
+                    <img src="portfolio4.png" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness App</h3>
+                        <p>Mobile application for workout tracking</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="video">
+                <div class="portfolio-img">
+                    <img src="#" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness App</h3>
+                        <p>Mobile application for workout tracking</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's work together</h3>
+                <p>Have a project in mind? I'd love to hear about it. Drop me a message and I'll get back to you within 24 hours.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>adlabdo888@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+20 101 127 4897</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <form class="contact-form" id="contactForm" action="https://formsubmit.co/adlabdo888@gmail.COM" method="POST">
+                    <!-- Anti-spam protection -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!-- Redirect after submission (optional) -->
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                    
+                    <!-- Email subject -->
+                    <input type="hidden" name="_subject" value="New Contact Form Submission">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn"><a href="mailto:adlabdo888@gmail.com?subject=Contact%20From%20Portfolio&body=Hello%20Abdo%2C%20I%20want%20to%20contact%20you" style="text-decoration: none;color: aliceblue;">Send Message</a> <i class="fas fa-paper-plane"></i></button>
+                </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> All rights reserved by Abdelrahman Adel &copy; 2025 </p>
+        <div class="footer-links">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
