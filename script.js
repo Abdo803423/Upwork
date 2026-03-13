@@ -58,7 +58,7 @@ window.addEventListener('scroll', () => {
 const typedTextSpan = document.querySelector('.typed-text');
 const cursorSpan = document.querySelector('.cursor');
 
-const roles = ['Frontend Developer', 'UI/UX Designer', 'Graphic Designer', 'Video Editor'];
+const roles = ['Frontend Developer', 'UI/UX Designer', 'Video Editor'];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
